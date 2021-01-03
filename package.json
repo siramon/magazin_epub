@@ -1,0 +1,16 @@
+{
+  "name": "republik2epub",
+  "version": "0.0.1",
+  "description": "Converts republik (.ch) articles to epub files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rolf Sonderegger (@siramon)",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "epub-gen": "^0.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
