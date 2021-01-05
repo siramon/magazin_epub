@@ -16,6 +16,22 @@ Getestet mit:
 
 Tests im Ordner ./test_epubs/
 
+### CLI
+
+```console
+foo@bar:~$ node index --help
+Usage: index [options]
+
+Options:
+  -V, --version      output the version number
+  -u, --url <url>    URL to generate EPUB file from, will provide you with a hash to get the EPUB
+  -h, --hash <hash>  Short hash to download a prepared EPUB file
+  --help             display help for command
+
+You have to provide either an <url> or a <hash> to run the program.
+foo
+```
+
 ## Ziele
 
 - Einfacher Online-Workflow um Republik-Artikel direkt auf einem E-Book Reader lesen zu können
@@ -24,7 +40,9 @@ Tests im Ordner ./test_epubs/
 
 ## ToDo
 
+- CLI erstellen
 - Online-Workflow definieren
+- ggf. Mercury Parser hinzuziehen und dessen Resultate nutzen: https://github.com/postlight/mercury-parser
 - Definitive Wahl des EPUB-Generators (momentan https://www.npmjs.com/package/epub-gen)
 - Urheber*innenzeile besser behanden (z.B. Publikationsdatum extrahieren)
 - Herausgeber und weitere Metadaten ergänzen
