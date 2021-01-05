@@ -10,8 +10,9 @@ Der aktuelle Prototyp läuft **lokal in einer Node.js Umgebung**. Die HTML-Datei
 Die erstellt EPUB-Datei muss anschliessend auf den Reader transferiert werden.
 
 Getestet mit:
-- https://www.republik.ch/2021/01/02/das-faschistische-missverstaendnis
-- https://www.republik.ch/2020/12/31/ein-jahresend-gespraech-aus-dem-jenseits
+- https://www.republik.ch/2021/01/04/duerrenmatts-ueberraschungen (graue Textboxen fehlen!)
+- https://www.republik.ch/2021/01/02/das-faschistische-missverstaendnis (Ok)
+- https://www.republik.ch/2020/12/31/ein-jahresend-gespraech-aus-dem-jenseits (Ok)
 
 Tests im Ordner ./test_epubs/
 
@@ -27,7 +28,10 @@ Tests im Ordner ./test_epubs/
 - Definitive Wahl des EPUB-Generators (momentan https://www.npmjs.com/package/epub-gen)
 - Urheber*innenzeile besser behanden (z.B. Publikationsdatum extrahieren)
 - Herausgeber und weitere Metadaten ergänzen
+- ggf. Angaben zu den Autoren (nur bei externen?) ergänzen
 - Artikelbild als Coverbild einbinden
+- Quotes einfügen (vgl. z.B. den Dürrentmatt-Artikel)
+- Inhaltsbilder einfügen
 - Erweiterung auf MOBI-Export (v.a. für die Kindle-Geräte)
 - ...
 
